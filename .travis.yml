@@ -6,4 +6,4 @@ before_install:
   - docker build -t minhtn012/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run minhtn012/docker-react npm run test -- --converage
+  - docker run minhtn012/docker-react npm run test -- --coverage
